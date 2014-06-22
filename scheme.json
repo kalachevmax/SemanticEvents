@@ -1,0 +1,27 @@
+{
+  "name": "justEvents",
+
+  "buildDir": "bin",
+  "buildFileName": "events.js",
+
+  "compilerOptions": {
+    "compilationLevel": "SIMPLE_OPTIMIZATIONS",
+    "warningLevel": "VERBOSE",
+    "language": "ECMASCRIPT5",
+    "formatting": ""
+  },
+
+  "srcDir": "lib",
+  "rootNamespace": "events",
+
+  "src": [
+      "events.js",
+      "event.js",
+      "i-event-emitter.js",
+      "event-emitter.js"
+  ],
+
+  "deps": [{
+    "justUtils": "https://github.com/kalachevmax/justUtils"
+  }]
+}
